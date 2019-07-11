@@ -1,0 +1,204 @@
+.background{
+    background: #61bff2;
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
+
+}
+nav{
+    border-radius: 10px;
+}
+.lorem h1{
+    font-size: 17vh;
+    font-weight: 100;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    padding-top:70px;
+    padding-left: 70px;
+}
+.lorem h2{
+    font-size: 20vh;
+    margin-top: -55px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 70px;
+}
+.image{
+    margin: 0;
+    padding: 0;
+}
+nav ul li a:hover{
+    color: #61bff2;
+}
+.baseline ul li a:hover::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #61bff2;
+    
+}
+.baseline ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    display: block;
+    transition: ease-in-out 0.5s;
+    
+}
+.baseline ul li{
+    padding-bottom: 2px;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.img-first{
+  z-index: 2;
+  position: absolute;
+}
+.img-second{
+    z-index: 1;
+    position: relative;
+    padding: 25px 0px 0px 150px;
+}
+.logo{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+.our-services h1{
+color: #ccc;
+text-align: center;
+padding-top: 25px;
+font-weight: 200;
+font-size: 50px;
+}
+.layer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    text-align: -webkit-center;
+}
+.layer h2{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    padding: 5px 25px 5px 25px;
+    background-color: #fff;
+    color: blue;
+    border-color: blue;
+    border-radius: 10px;
+    width: 225px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.trands p{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.trands h1{
+    text-align: center;
+    font-weight: 100;
+    padding-top: 170px;
+    color: #fff;
+    font-size: 50px;
+  
+}
+.trands{
+    
+    background-image: url('../../assets/backgrounds/4683.png');
+    background-size: cover;
+    object-fit: cover;
+    
+}
+.images img{
+    position: relative;
+}
+.images button{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    background-color: #fff;
+    color: blue;
+    border-color: blue;
+    width: 133px;
+    height: 41px;
+    border-radius: 10px;
+}
+.form-div{
+    background-image: url('../../assets/backgrounds/rec.png');
+    background-size: cover;
+    margin-top: 100px;
+}
+.form{
+    background-color: #fff; 
+    margin-top: 100px;
+    width: auto;
+    padding-top: 10px;
+    box-shadow: 3px 4px 8px 4px;
+}
+.form input{
+    border: 1.5px solid #000;
+    margin-top: 10px;
+}
+.form textarea{
+    border: 1.5px solid #000;
+    margin-top: 10px;
+    height: 70px;
+}
+.form h6{
+    margin-top: -30px;
+    color: #ccc;
+}
+.footer{
+    background-color: #426f98;
+    color: #fff;
+    min-height: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:767px){
+    .lorem h1{
+        font-size: 11vh;
+    }
+    .lorem h2{
+        font-size:14vh;
+        margin-top: -36px;
+    }
+}
+@media (max-width:575px){
+    .logo{
+        top: 116%;
+    }
+}
+@media (max-width:991px){
+    .images button{
+        
+        top: 55%;
+        left: 21%;
+    }
+}
+@media (max-width:767px){
+    .images button{
+        
+        top: 68%;
+        left: 27%;
+        width: 80px;
+        height: 30px;
+    }
+}
